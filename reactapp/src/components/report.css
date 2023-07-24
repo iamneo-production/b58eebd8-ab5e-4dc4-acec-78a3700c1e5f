@@ -1,0 +1,42 @@
+.tbl{
+    align-items: center;
+    background-color: white;
+    align-content: center;
+align-items: center;
+height: 100%;
+    
+}
+
+
+
+
+.inventory-table {
+
+padding-left: 1px;
+width: 20%;
+border-radius: 1px;
+border-collapse: collapse;
+text-align: center;
+}
+
+.inventory-table th,
+.inventory-table td {
+padding: 4px;
+border: 1px solid #ccc;
+}
+
+.inventory-table th {
+background-color: grey;
+width: 2%;
+}
+
+.inventory-table input[type='number'] {
+width: 80px;
+text-align: center;
+border: none;
+background-color: transparent;
+}
+
+.inventory-table input[type='number']:focus {
+outline: none;
+}

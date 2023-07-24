@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.ddd
+{
+background-color:black;    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+
+
+
+.data{
+    align-items: center;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  margin: 1px;
+ 
+ 
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  width: 50%;
+  
+}
+
+ma {
+    align-items: center;
+  position: relative;
+  top: 30px;
+  margin: 0 auto;
+  width: 60%;
+  max-width: 400;
+  box-sizing: border-box; 
+  background-color:white;
+
+  
+}
+
+#title, #description {
+  text-align: center;
+  font-family: 'Bebas Neue', cursive;
+  color:#594f8d;
+}
+
+#title{
+  letter-spacing: 0.09rem;
+}
+
+.input-area{
+  display: block;
+  width: 200px;
+  border-radius: 5px;
+  padding: 4px;
+  line-height: 30px;
+  margin-bottom: 5px;
+  margin-right: 10px;
+  max-width: 1000px;
+  border: 1px solid #ced4da;
+}
+
+form p {
+  font-size: 1.125rem;
+  margin-top: 20px;
+  margin-bottom: 0.5rem;}
+
+#survey-form{
+  position: relative;
+  top: 20px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+ 
+
+}
+
+@media (max-width: 480px) {
+  main {
+    width: 100%;
+  }
+}
+
+.radio-input, checkbox-input{
+  display: inline-block;
+  margin: 0.2rem;
+ 
+}
+
+label {
+  display: block;
+  font-size: 1.125rem;
+  margin-bottom: 0.5rem;
+  padding: 10px;
+}
+
+.textarea-input{
+  min-height: 12px;
+  width: 100px;
+  padding: 0.625rem;
+  resize: vertical;
+  margin: 0.5rem;
+;
+}
+
+#submit {
+  align-items: center;
+  padding: 3px;
+  width: 100%;
+  height:40px;
+  font-size: 1.0rem;
+  background-color:#594f8d ;
+  border-radius: 5px;
+  border: 1px;
+  margin-top: 10px;
+  -webkit-transition-property: background-color;
+    -webkit-transition-duration: 1s;
+    -webkit-transition-timing-function: linear;
+    transition-property: background-color;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+  cursor: pointer;
+}
+
+#submit:hover{
+  background-color: #bdb8d7;
+}
+
+span {
+  color: red;
+  font-size: 1.0rem;
+}
+

@@ -1,0 +1,42 @@
+.container {
+    display: 'flex';
+    align-items: 'center';
+    justify-content: 'center';
+    height: '100vh';
+    font-family: 'Arial, sans-serif';
+  }
+  form {
+    display: 'flex';
+    flex-direction: 'column';
+    width: '400px';
+    padding: '20px';
+    padding-top: 20%;
+    padding-bottom: 20%;
+    padding-left: 45%;
+    padding-right: 20%;
+    border: '1px solid #ccc';
+    border-radius: '4px';
+  }
+  input {
+    margin-Bottom: '10px';
+    padding: '10px';
+    font-Size: '20px';
+  }
+  button {
+    padding: '10px';
+    font-Size: '16px';
+    background-color: '#3293a8';
+    color: 'black';
+    border: 'none';
+    cursor: 'pointer';
+    width: 10vw !important;
+  }
+  .error {
+    color: 'black';
+    margin-Bottom: '10px';
+  }
+  body{
+    background-color: white;
+    background-size: cover;
+
+  }
